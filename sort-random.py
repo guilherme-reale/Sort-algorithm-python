@@ -18,13 +18,13 @@ for i in range(0,len(random_list)):
             condition=(random_list[i]>=random_list[j])
             
         if condition:
-            tmp=random_list[j]
+            var=random_list[j]
             random_list[j]=random_list[i]
-            random_list[i]=tmp
+            random_list[i]=var
             
         
     
-    i+=1
+
     
 for k in range(0,len(random_list)):
     print(random_list[k])
